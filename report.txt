@@ -1,0 +1,59 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<20>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<3>>>
+
+3. Did you receive help from anyone? List their names, status (classmate, 
+   CS110 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+    Ramsey Harrison     TA          explained how to make a sample in rsa.py
+                                    explained how to do the keygen function in rsa.py
+
+    Moiz Amjad          SI           He solved some little code issues like I wrote stdio.writeln
+                                     instead of stdio.write in encrypt.py
+
+4. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (RSA Library)
+      Approach: I solved _sample and _choice first so that I can use them
+      in the keygen function. Using that and some help from TA and SI I solved the keygen function
+
+      Issues and resolution: I faced issues with Keygen function and did not use the choice
+      and sample in keygen. So the code was repetitive and long.The SI helped me to see this issue and I solved
+      the way around
+
+   Problem 2 (Keygen Program)
+      Approach: After I was done with the rsa library keygen was straight-forward got to values from
+      command line argument  which are lo and hi. Using that wrote in standard form the three values in
+       the tuple
+
+      Issues and resolution: I faced no issues with this problem
+
+   Problem 3 (Encryption Program)
+      Approach: Used functions from the rsa library to solve this problem
+
+      Issues and resolution: I wrote stdio.writeln instead of stdio.write and it
+      was not giving the right output. So the TA helped me identify the issue.
+
+   Problem 4 (Decryption Program)
+      Approach: Used the functions from the rsa library to solve this problem.
+
+      Issues and resolution: I did mistakes with the range of 'i' and it made it output
+      wrong string values.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   I believe this project was easier than project 3 and was more related to Mathematics.
+   The TA and SI helped me with troubleshooting some silly issues.
+   I learnt new functions like ord() and chr(). Overall this was more fun to do among all
+   the projects I did before because I was actually curious how the RSA system works.
